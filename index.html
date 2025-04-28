@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Богдан | Разработчик</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+  <button class="theme-switcher" id="theme-toggle" aria-label="Переключить тему">
+    <i class="bi bi-moon"></i>
+  </button>
+
+  <div class="container">
+    <img id="discord-avatar" class="avatar" alt="Богдан">
+
+    <h1>Привет, я Богдан! <span class="wave">👋</span></h1>
+    <p class="subtitle">🚀 Fullstack разработчик | Game Dev | Веб</p>
+    
+    <div class="buttons">
+      <a href="https://github.com/superbodik" class="btn btn-github">
+        <i class="bi bi-github"></i> GitHub
+      </a>
+      <a href="https://t.me/superbodik223" class="btn btn-telegram">
+        <i class="bi bi-telegram"></i> Telegram
+      </a>
+      <a href="https://discord.gg/FH2rARnYgh" class="btn btn-discord">
+        <i class="bi bi-discord"></i> Discord
+      </a>
+    </div>
+
+    <section class="card" id="about">
+      <h2>✨ Обо мне</h2>
+      <p>4+ года в программировании. Пишу игры на Unity (C#/C++), создаю 3D-движки, разрабатываю веб-приложения (React/Angular) и бекенд. Автор лаунчера для игры <strong>Epoch of Change</strong>.</p>
+    </section>
+
+    <section class="card" id="tech">
+      <h2>🛠 Мой стек</h2>
+      <div class="tech-grid" id="tech-grid"></div>
+    </section>
+
+    <section class="card" id="music">
+      <h2>🎵 Музыка</h2>
+      <div id="spotify-embed"></div>
+    </section>
+  </div>
+
+  <script src="js/theme.js"></script>
+  <script src="js/discord.js"></script>
+  <script src="js/spotify.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
